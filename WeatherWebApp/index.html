@@ -7,33 +7,39 @@
 		<link href="/styles.css" rel="stylesheet" />
 	</head>
 	<body>
+     
+			<form id="search-form">
+				<input id="city-input" placeholder="search for the city..." />
+				<button type="submit">Search</button>
+			</form>
 		<div class="container">
-			<div class="top">
+     
+
+			<div class="unitBtns">
 				<button class="farenheit active">Farenheit</button>
 				<button class="celcius">Celcius</button>
-				<p class="location">City Name</p>
-				<h1 class="temp">0° <span class="temp-unit">F</span></h1>
-				<div class="app-name">Weather App</div>
 			</div>
+      <div class="info">
+        	<p class="location">City Name</p>
+				<h1 class="temp">0° <span class="temp-unit">F</span></h1>
+      </div>
 			<div class="bottom">
-				<div class="feels">
+				<div class="feels box">
 					<p class="bold">0°</p>
 					<p>Feels like</p>
 				</div>
-				<div class="humidity">
+				<div class="humidity box">
 					<p class="bold">0%</p>
 					<p>Humidity</p>
 				</div>
-				<div class="wind">
+				<div class="wind box" >
 					<p class="bold">0 miles/hr</p>
 					<p>Wind speed</p>
 				</div>
 			</div>
 
-			<form id="search-form">
-				<input id="city-input" placeholder="search for the city..." />
-				<button type="submit">Search</button>
-			</form>
+			
+      		<h1 class="app-name">Weather App</div>
 		</div>
 
 		<script src="/script.js"></script>

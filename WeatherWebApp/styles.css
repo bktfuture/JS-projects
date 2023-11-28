@@ -12,22 +12,31 @@ body {
 }
 
 .container {
+	margin-top: 10px;
+	font-size: 20px;
 	width: 70%;
 	height: 100vh;
-	margin: 0 auto;
+	margin: 5% auto;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	padding: 20px;
+	align-items: center;
+
+	gap: 10%;
+}
+
+body h1 {
+	font-size: 40px;
 }
 
 .app-name {
-	transform: rotate(90deg);
-	transform-origin: 0 0;
+	top: 0;
+	left: 10px;
 	position: absolute;
-	top: 200px;
-	right: 0px;
-	font-size: 2rem;
+	margin: 0;
+}
+
+.info h1 {
+	text-align: center;
 }
 
 h1,
@@ -37,24 +46,32 @@ h1,
 
 .bottom {
 	display: flex;
-	width: 80%;
+	width: 70%;
+	height: 90px;
 	background-color: rgb(255, 255, 255, 0.2);
-	justify-content: space-around;
+	justify-content: space-evenly;
+	align-items: center;
 	border-radius: 10px;
 	padding: 10px 20px;
+	text-align: center;
 }
 
 .bottom p {
 	margin: 0;
 }
 
+.box {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
 .bottom .bold {
 	font-size: 2rem;
 	font-weight: bold;
 }
 
 input {
-	width: 60%;
+	width: 40%;
 	padding: 10px 20px;
 	border-radius: 20px;
 	background-color: rgb(0, 0, 0, 0.3);
@@ -62,7 +79,6 @@ input {
 	font-size: 1.5rem;
 	border: none;
 	outline: none;
-	margin: auto;
 }
 
 input::placeholder {
@@ -84,4 +100,11 @@ button.active {
 
 button:focus {
 	outline: none;
+}
+
+#search-form {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
