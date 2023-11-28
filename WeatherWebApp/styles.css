@@ -33,7 +33,7 @@ body {
 	font-size: 20px;
 	width: 70%;
 	height: 100vh;
-	margin: 10px auto;
+	margin: 20px auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -41,6 +41,7 @@ body {
 }
 
 .app-name {
+	letter-spacing: 1.5px;
 	top: 10px;
 	left: 20px;
 	position: absolute;

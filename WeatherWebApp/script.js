@@ -1,3 +1,5 @@
+// bug: doesnt refresh the rendered data when clicking the thing fix
+
 const form = document.getElementById('search-form');
 const cityInput = document.getElementById('city-input');
 const cityNameUI = document.querySelector('.location');
