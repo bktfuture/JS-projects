@@ -17,5 +17,7 @@ this line will prompt the user for the value and then store it in teh const exam
 const test = testFunction();
 console.log(test);
 
+
+
 3. while(true) is a way to prompt a user for specific kind of input untill they satisfy the requirments, if they satisfy you can break the loop with the return statement.
 
