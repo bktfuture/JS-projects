@@ -12,7 +12,7 @@ const exampleVariable = prompt("What input you ask for: ");
 
 this line will prompt the user for the value and then store it in teh const exampleVariabe.
 
-2. In order to test functions, you need to create a const with the value of function call and console log it.
+2. In order to test functions, you need to create a const with the value of function call and console log it.\
 
 const test = testFunction();
 console.log(test);
